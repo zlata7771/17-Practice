@@ -1,0 +1,12 @@
+start
+new age number
+set age 17
+new enough number
+set enough 18
+if (enough > age)
+  log string "нельзя купить алкоголь"
+close
+if (age > enough)
+  log string "можно купить алкоголь"
+close
+finish
