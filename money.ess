@@ -1,0 +1,12 @@
+start
+new money number
+set money 1000
+new cost number
+set cost 999
+if (cost > money)
+  log string "не хватает денег купить товар"
+close
+if (money > cost)
+  log string "хватает денег купить товар"
+close
+finish
