@@ -1,0 +1,24 @@
+start
+new AB number
+set AB 5
+log number AB
+new BC number
+set BC 15
+log number BC
+new CD number
+set CD 5
+log number CD
+new AD number
+set AD 30
+log number AD
+new break number
+set break 10
+log number break
+new way number
+set way AB + BC + break + CD
+if (way > AD)
+  log string "пешком быстрее"
+else 
+  log string "на автобусе быстрее"
+close
+finish
